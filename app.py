@@ -92,4 +92,4 @@ if st.button("Mulai Tes!", type="primary"):
         st.session_state["start_time"] = time.time()
         
         # Native page navigation clears the DOM entirely!
-        st.switch_page("pages/1_mulai_tes.py")
+        st.switch_page("1_mulai_tes.py")
