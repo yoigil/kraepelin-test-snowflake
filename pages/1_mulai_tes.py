@@ -37,7 +37,7 @@ col_idx = st.session_state["current_column"]
 
 # CRITICAL SAFETY CHECK: Stop execution if the test is completed!
 if col_idx >= TOTAL_COLUMNS or st.session_state["step"] == "finished":
-    st.switch_page("pages/2_hasil.py")
+    st.switch_page("2_hasil.py")
     st.stop() # Force stops Python from reading any further down!
 
 row_idx = st.session_state["row_index"]
