@@ -5,7 +5,6 @@ from openpyxl.styles import Font, Alignment, PatternFill
 from openpyxl.chart import LineChart, Reference
 from zipencrypt import ZipFile
 
-st.set_page_config(page_title="Tes Selesai", layout="centered")
 st.markdown("<style>section[data-testid='stSidebar'] {display: none;}</style>", unsafe_allow_html=True)
 
 TOTAL_COLUMNS = 50
