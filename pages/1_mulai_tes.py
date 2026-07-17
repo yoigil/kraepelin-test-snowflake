@@ -1,7 +1,6 @@
 import streamlit as st
 import time
 
-st.set_page_config(page_title="Tes Berjalan", layout="centered")
 st.markdown("<style>section[data-testid='stSidebar'] {display: none;}</style>", unsafe_allow_html=True)
 
 # Safety check: if accessed directly without registering
@@ -110,5 +109,5 @@ window.parent.document.addEventListener('keydown', handleKeyDown);
 """
 st.components.v1.html(js_listener, height=0, width=0)
 
-time.sleep(0.05)
+time.sleep(0.15)
 st.rerun()
